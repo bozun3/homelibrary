@@ -37,7 +37,7 @@ function CalenderHeader(props) {
         />
       </DropdownContainer>
       <AppointmentButton onClick={openModal}>
-        Press To Plan When You Want To Read
+        Create Appointment
       </AppointmentButton>
     </CalenderHeaderContainer>
   );

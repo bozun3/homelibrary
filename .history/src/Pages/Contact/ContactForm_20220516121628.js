@@ -40,7 +40,6 @@ export default function ContactForm() {
 
   return (
     <div>
-      <h4> Send message</h4>
       <FormStyles>
         <div className="form-group">
           <label htmlFor="name">

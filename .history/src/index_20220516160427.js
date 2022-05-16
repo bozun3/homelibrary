@@ -12,7 +12,7 @@ import { store } from "./Pages/Calendar/store/store";
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <div style={{ backgroundImage: `url(${background})` }}>
+      <div>
         <App />
       </div>
     </Provider>

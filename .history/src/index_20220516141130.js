@@ -4,7 +4,6 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 //import "./index.css";
-import background from "./assets/pick5.jpg";
 
 import { Provider } from "react-redux";
 import { store } from "./Pages/Calendar/store/store";
@@ -12,9 +11,7 @@ import { store } from "./Pages/Calendar/store/store";
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <div style={{ backgroundImage: `url(${background})` }}>
-        <App />
-      </div>
+      <App />
     </Provider>
   </React.StrictMode>,
   document.getElementById("root")
