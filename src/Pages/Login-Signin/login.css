@@ -1,0 +1,19 @@
+
+
+.logo {
+    padding: 65px;
+}
+button{
+    width: 100%;
+    margin: 5px 0;
+    background-color: rgb(28, 121, 28);
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+
+
+}
